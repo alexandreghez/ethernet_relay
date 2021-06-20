@@ -8,11 +8,11 @@ Thi script use the embedded Web server to control the relay
 Edit the file according to your configuraition (IP adress, etc...)
 
 ## Usage
-./relayHTTP.js &lt;RelayNumber&gt; &lt;Action&gt;
+./relayHTTP.js &lt;RelayNumber&gt; &lt;Action&gt;<br><br>
   
-  with : 
-    <RelayNumber> : Number of the relay beetween (1 and 8)
-    <Action> : Action to perform, could be : <br>
+  with : <br>
+    &lt;RelayNumber&gt; : Number of the relay beetween (1 and 8)<br>
+    &lt;Action&gt; : Action to perform, could be : <br>
         on : Open the relay<br>
         off : Close the relay<br>
         info : Get status of the relay<br>
